@@ -104,8 +104,14 @@ async def make_donation(message: Message):
 @router.callback_query(F.data.startswith('game_'))
 async def process_game_selection(callback: CallbackQuery, state: FSMContext):
     """O'yin tanlash"""
-    user = db.get_user(callback.from_user.id)
-    language = user['language']
+user = db.get_user(user_id)
+
+# Agar user bazada bo‘lmasa — uni yaratamiz
+if user is None:
+    db.add_user(user_id, "uz")  # default til uz
+    user = db.get_user(user_id)
+
+language = user["language"]
     
     game_key = callback.data.replace('game_', '')
     game_name = GAMES.get(game_key, 'PUBG Mobile')
