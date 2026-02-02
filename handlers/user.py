@@ -101,7 +101,7 @@ async def make_donation(message: Message):
     )
 
 
-@@router.callback_query(F.data.startswith('game_'))
+@router.callback_query(F.data.startswith('game_'))
 async def process_game_selection(callback: CallbackQuery, state: FSMContext):
     """O'yin tanlash"""
 
