@@ -1,0 +1,77 @@
+{
+  "welcome": "👋 Welcome!\n\n🎮 With this bot, you can quickly and safely add funds to your games.\n\n🔹 Supported games:\n• PUBG Mobile\n• Telegram Premium\n• Telegram Stars\n• Mobile Legends (Diamonds)\n\nPlease select a language:",
+  
+  "main_menu": "🏠 Main Menu",
+  "select_language": "🌐 Select Language",
+  "make_donation": "🎮 Add Funds",
+  "my_orders": "📦 My Orders",
+  "help": "📞 Help",
+  
+  "select_game": "🎮 Select a game:",
+  "pubg_mobile": "PUBG Mobile",
+  "telegram_premium": "Telegram Premium",
+  "telegram_stars": "Telegram Stars",
+  "mobile_legends": "Mobile Legends (Diamonds)",
+  
+  "select_amount": "💰 Select amount:",
+  "back": "◀️ Back",
+  "cancel": "❌ Cancel",
+  "main_menu_btn": "🏠 Main Menu",
+  
+  "enter_game_id": "🎯 Enter your game ID:\n\n💡 Example: 5123456789",
+  "invalid_game_id": "❌ Invalid ID format. Please enter only numbers.",
+  
+  "payment_info": "💳 Payment Information:\n\n🎮 Game: {game}\n💰 Amount: {amount}\n💵 Price: {price} UZS\n🆔 Game ID: {game_id}\n\n📌 For payment:\nCard: {card_number}\n\n✅ After payment, send a receipt photo:",
+  
+  "order_received": "✅ Order received!\n\n🔢 Order number: #{order_id}\n\n⏳ Your order is under review. We'll notify you about the result soon.",
+  
+  "order_not_found": "❌ Order not found.",
+  "no_orders": "📦 You don't have any orders yet.",
+  
+  "my_orders_list": "📦 My Orders:\n\n",
+  "order_status_pending": "⏳ Under Review",
+  "order_status_approved": "✅ Approved",
+  "order_status_rejected": "❌ Rejected",
+  
+  "order_approved": "🎉 Your order has been approved!\n\n🔢 Order: #{order_id}\n🎮 Game: {game}\n💰 Amount: {amount}\n\n✅ Funds added successfully!",
+  
+  "order_rejected": "❌ Your order has been rejected.\n\n🔢 Order: #{order_id}\n📝 Reason: {reason}\n\n💡 To place a new order, press \"🎮 Add Funds\".",
+  
+  "help_text": "📞 Help\n\n❓ FAQ:\n\n1️⃣ How to add funds?\n• Select game\n• Choose amount\n• Enter game ID\n• Pay and send receipt\n\n2️⃣ How long does it take?\n• 5-30 minutes\n\n3️⃣ Is payment secure?\n• Yes, all payments are verified\n\n📧 Additional questions: @{support_username}",
+  
+  "language_changed": "✅ Language changed: English",
+  
+  "admin_panel": "👨‍💼 Admin Panel\n\n📊 Statistics:\n• Total orders: {total_orders}\n• Today's orders: {today_orders}\n• Monthly orders: {month_orders}\n• Total revenue: {total_revenue} UZS",
+  
+  "admin_menu": "👨‍💼 Admin Menu",
+  "pending_orders": "⏳ New Orders ({count})",
+  "all_orders": "📋 All Orders",
+  "users_list": "👥 Users",
+  "manage_prices": "💰 Manage Prices",
+  "broadcast": "📢 Broadcast",
+  "statistics": "📊 Statistics",
+  
+  "new_order_admin": "🔔 NEW ORDER!\n\n🔢 Order: #{order_id}\n👤 User: {username}\n🆔 User ID: {user_id}\n🎮 Game: {game}\n💰 Amount: {amount}\n💵 Price: {price} UZS\n🎯 Game ID: {game_id}\n📅 Time: {time}",
+  
+  "approve_order": "✅ Approve",
+  "reject_order": "❌ Reject",
+  
+  "order_approved_admin": "✅ Order #{order_id} approved.",
+  "order_rejected_admin": "❌ Order #{order_id} rejected.\n\nEnter rejection reason:",
+  "rejection_reason_received": "✅ Order rejected and user notified.",
+  
+  "total_users": "👥 Total users: {count}\n\n",
+  "user_info": "👤 {username}\n🆔 ID: {user_id}\n📅 Joined: {joined}\n📦 Orders: {orders}\n\n",
+  
+  "broadcast_prompt": "📢 Write your message for all users:",
+  "broadcast_sent": "✅ Message sent to {count} users.",
+  
+  "enter_new_price": "💰 Enter new price for {game} - {amount} (in UZS):",
+  "price_updated": "✅ Price updated: {game} - {amount} = {price} UZS",
+  "invalid_price": "❌ Invalid price. Enter only numbers.",
+  
+  "statistics_text": "📊 STATISTICS\n\n📅 Today's orders: {today_orders}\n📅 Monthly orders: {month_orders}\n📦 Total orders: {total_orders}\n\n💰 Today's revenue: {today_revenue} UZS\n💰 Monthly revenue: {month_revenue} UZS\n💰 Total revenue: {total_revenue} UZS\n\n👥 Total users: {total_users}",
+  
+  "send_receipt": "📸 Send payment receipt photo:",
+  "receipt_required": "❌ Please send the receipt photo."
+}

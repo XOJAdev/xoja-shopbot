@@ -1,0 +1,77 @@
+{
+  "welcome": "👋 Xush kelibsiz!\n\n🎮 Bu bot orqali o'yinlaringizga tez va xavfsiz donat qilishingiz mumkin.\n\n🔹 Qo'llab-quvvatlanadigan o'yinlar:\n• PUBG Mobile\n• Telegram Premium\n• Telegram Stars\n• Mobile Legends (Almaz)\n\nIltimos, tilni tanlang:",
+  
+  "main_menu": "🏠 Asosiy menyu",
+  "select_language": "🌐 Tilni tanlash",
+  "make_donation": "🎮 Donat qilish",
+  "my_orders": "📦 Mening buyurtmalarim",
+  "help": "📞 Yordam",
+  
+  "select_game": "🎮 O'yinni tanlang:",
+  "pubg_mobile": "PUBG Mobile",
+  "telegram_premium": "Telegram Premium",
+  "telegram_stars": "Telegram Stars",
+  "mobile_legends": "Mobile Legends (Almaz)",
+  
+  "select_amount": "💰 Miqdorni tanlang:",
+  "back": "◀️ Orqaga",
+  "cancel": "❌ Bekor qilish",
+  "main_menu_btn": "🏠 Asosiy menyu",
+  
+  "enter_game_id": "🎯 O'yin ID raqamingizni kiriting:\n\n💡 Masalan: 5123456789",
+  "invalid_game_id": "❌ Noto'g'ri ID format. Iltimos, faqat raqamlar kiriting.",
+  
+  "payment_info": "💳 To'lov ma'lumotlari:\n\n🎮 O'yin: {game}\n💰 Miqdor: {amount}\n💵 Narx: {price} so'm\n🆔 O'yin ID: {game_id}\n\n📌 To'lov qilish uchun:\nKarta: {card_number}\n\n✅ To'lovni amalga oshirgandan so'ng, chek rasmini yuboring:",
+  
+  "order_received": "✅ Buyurtma qabul qilindi!\n\n🔢 Buyurtma raqami: #{order_id}\n\n⏳ Buyurtmangiz ko'rib chiqilmoqda. Tez orada natija haqida xabar beramiz.",
+  
+  "order_not_found": "❌ Buyurtma topilmadi.",
+  "no_orders": "📦 Sizda hali buyurtmalar yo'q.",
+  
+  "my_orders_list": "📦 Mening buyurtmalarim:\n\n",
+  "order_status_pending": "⏳ Ko'rib chiqilmoqda",
+  "order_status_approved": "✅ Tasdiqlangan",
+  "order_status_rejected": "❌ Rad etilgan",
+  
+  "order_approved": "🎉 Buyurtmangiz tasdiqlandi!\n\n🔢 Buyurtma: #{order_id}\n🎮 O'yin: {game}\n💰 Miqdor: {amount}\n\n✅ Donat muvaffaqiyatli amalga oshirildi!",
+  
+  "order_rejected": "❌ Buyurtmangiz rad etildi.\n\n🔢 Buyurtma: #{order_id}\n📝 Sabab: {reason}\n\n💡 Yangi buyurtma berish uchun \"🎮 Donat qilish\" tugmasini bosing.",
+  
+  "help_text": "📞 Yordam\n\n❓ Savol-javoblar:\n\n1️⃣ Donat qanday amalga oshiriladi?\n• O'yinni tanlang\n• Miqdorni belgilang\n• O'yin ID'ni kiriting\n• To'lov qiling va chekni yuboring\n\n2️⃣ Qancha vaqt ketadi?\n• 5-30 daqiqa ichida\n\n3️⃣ To'lov xavfsizmi?\n• Ha, barcha to'lovlar tekshiriladi\n\n📧 Qo'shimcha savol bo'lsa: @{support_username}",
+  
+  "language_changed": "✅ Til o'zgartirildi: O'zbek tili",
+  
+  "admin_panel": "👨‍💼 Admin Panel\n\n📊 Statistika:\n• Jami buyurtmalar: {total_orders}\n• Bugungi buyurtmalar: {today_orders}\n• Oylik buyurtmalar: {month_orders}\n• Umumiy tushum: {total_revenue} so'm",
+  
+  "admin_menu": "👨‍💼 Admin menyu",
+  "pending_orders": "⏳ Yangi buyurtmalar ({count})",
+  "all_orders": "📋 Barcha buyurtmalar",
+  "users_list": "👥 Foydalanuvchilar",
+  "manage_prices": "💰 Narxlarni boshqarish",
+  "broadcast": "📢 Xabar yuborish",
+  "statistics": "📊 Statistika",
+  
+  "new_order_admin": "🔔 YANGI BUYURTMA!\n\n🔢 Buyurtma: #{order_id}\n👤 Foydalanuvchi: {username}\n🆔 User ID: {user_id}\n🎮 O'yin: {game}\n💰 Miqdor: {amount}\n💵 Narx: {price} so'm\n🎯 O'yin ID: {game_id}\n📅 Vaqt: {time}",
+  
+  "approve_order": "✅ Tasdiqlash",
+  "reject_order": "❌ Rad etish",
+  
+  "order_approved_admin": "✅ Buyurtma #{order_id} tasdiqlandi.",
+  "order_rejected_admin": "❌ Buyurtma #{order_id} rad etildi.\n\nRad etish sababini yozing:",
+  "rejection_reason_received": "✅ Buyurtma rad etildi va foydalanuvchiga xabar yuborildi.",
+  
+  "total_users": "👥 Jami foydalanuvchilar: {count}\n\n",
+  "user_info": "👤 {username}\n🆔 ID: {user_id}\n📅 Ro'yxatdan o'tgan: {joined}\n📦 Buyurtmalar: {orders}\n\n",
+  
+  "broadcast_prompt": "📢 Barcha foydalanuvchilarga yubormoqchi bo'lgan xabaringizni yozing:",
+  "broadcast_sent": "✅ Xabar {count} foydalanuvchiga yuborildi.",
+  
+  "enter_new_price": "💰 {game} - {amount} uchun yangi narxni kiriting (so'mda):",
+  "price_updated": "✅ Narx yangilandi: {game} - {amount} = {price} so'm",
+  "invalid_price": "❌ Noto'g'ri narx. Faqat raqam kiriting.",
+  
+  "statistics_text": "📊 STATISTIKA\n\n📅 Bugungi buyurtmalar: {today_orders}\n📅 Oylik buyurtmalar: {month_orders}\n📦 Jami buyurtmalar: {total_orders}\n\n💰 Bugungi tushum: {today_revenue} so'm\n💰 Oylik tushum: {month_revenue} so'm\n💰 Umumiy tushum: {total_revenue} so'm\n\n👥 Jami foydalanuvchilar: {total_users}",
+  
+  "send_receipt": "📸 To'lov chekini rasm ko'rinishida yuboring:",
+  "receipt_required": "❌ Iltimos, chek rasmini yuboring."
+}
