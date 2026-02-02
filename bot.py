@@ -8,6 +8,14 @@ from handlers.admin import router as admin_router
 from database.db import Database
 import config
 
+from admin_ids import ADMINS   # ✔ adminlar ro‘yxatini import qilamiz
+
+db = Database()
+
+# ✔ Render / Railway qayta ishga tushganda adminlar yo‘qolib qolmasligi uchun
+for admin_id in ADMINS:
+    db.set_admin(admin_id, True)
+
 # Logging sozlash
 logging.basicConfig(
     level=logging.INFO,
